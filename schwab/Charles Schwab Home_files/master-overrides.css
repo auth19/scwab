@@ -1,0 +1,20 @@
+/* THIS STYLESHEET SHOULD BE DEPRECATED WHEN MASTER.CSS IS RETIRED ----------------------------------- */
+/* This should ONLY be used for _AppsBaseResponsiveLayout.cshtml -------------------------------------- */
+/* PLEASE AND THANKYOU ------------------------------------------------------------------------------- */
+
+.sdps-layout--responsive #footer {
+	width: 100%;
+}
+
+.sdps-layout--responsive #footer .section-links {
+	height: 100%;
+}
+
+@media (min-width: 0) and (max-width: 479px) {
+  .sdps-layout__account-selector #accountSelector,
+  .sdps-layout__account-selector .blueDropDown,
+  .sdps-layout__account-selector .grayDropDown,
+  .sdps-layout__account-selector .disabledDropDown {
+    width: 100%; }
+  #acctSelectorOverlay {
+    width: 97%; } }
